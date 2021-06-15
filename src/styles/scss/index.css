@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../../../styles/fonts/Roboto/Roboto-Italic.ttf");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  /* Location of the image */
+  background-image: url(../../assets//images/highway.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn’t tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn’t move when
+the content’s height is greater than the image’s height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+on the container’s size */
+  background-size: cover;
+  /* Set a background color that will be displayed
+while the background image is loading */
+  background-color: #464646;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: red;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:focus {
+  background: #BAE498;
+}
+
+a:hover {
+  color: tomato;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+.iframe-navbar-container iframe {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  box-shadow: 1px 31px 28px 14px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 31px 28px 14px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 31px 28px 14px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+    to improve page load speed on mobile internet connections */
+    background-color: aqua;
+  }
+}
+/*# sourceMappingURL=index.css.map */
