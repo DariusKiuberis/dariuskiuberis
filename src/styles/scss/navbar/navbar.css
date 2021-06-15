@@ -86,4 +86,11 @@ body {
   content: "now";
   color: #fff;
 }
+
+@media only screen and (max-width: 767px) {
+  .navbar-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

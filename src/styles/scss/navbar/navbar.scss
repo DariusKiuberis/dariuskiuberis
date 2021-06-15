@@ -33,7 +33,6 @@ body {
   a:active {
     border-bottom: none;
   }
-
 }
 
 .logo-wrap:hover .link:after {
@@ -82,4 +81,10 @@ body {
 .login-wrap:hover .link:after {
   content: "now";
   color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-container {
+    flex-wrap: wrap;
+  }
 }
