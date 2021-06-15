@@ -9,7 +9,6 @@ body {
 }
 
 .navbar-container {
-  width: 100vw;
   height: 100vh;
   color: white;
   display: -webkit-box;
@@ -21,20 +20,29 @@ body {
 }
 
 .logo-container {
-  min-width: 10%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
+  font-size: 1.5em;
+}
+
+.logo-wrap {
+  width: 70px;
+}
+
+.logo-wrap a:active {
+  border-bottom: none;
+}
+
+.logo-wrap:hover .link:after {
+  content: "Kiuberis";
+  color: #fff;
 }
 
 .links-container {
@@ -49,36 +57,33 @@ body {
           justify-content: center;
 }
 
-.dashboard-link {
+.about-wrap {
+  width: 70px;
   margin: 0 50px 0 0;
 }
 
-.about-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.about-wrap:hover .link:after {
+  content: "me";
+  color: #fff;
+}
+
+.contact-wrap {
+  width: 75px;
   margin: 0 50px 0 0;
 }
 
-.contact-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.contact-wrap:hover .link:after {
+  content: "us";
+  color: #fff;
+}
+
+.login-wrap {
+  width: 70px;
   margin: 0 50px 0 0;
 }
 
-.login-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.login-wrap:hover .link:after {
+  content: "now";
+  color: #fff;
 }
 /*# sourceMappingURL=navbar.css.map */
