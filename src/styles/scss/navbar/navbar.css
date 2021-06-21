@@ -20,22 +20,28 @@ body {
 }
 
 .logo-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: logo;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 34%;
+      grid-template-columns: 33% 33% 34%;
+  -ms-grid-rows: 33% 33% 34%;
+      grid-template-rows: 33% 33% 34%;
+      grid-template-areas: ". . ." ". logoWrap ." ". . .";
 }
 
 .logo-wrap {
-  width: 70px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: logoWrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .logo-wrap a:active {
@@ -64,9 +70,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: about;
@@ -81,9 +87,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: contact;
@@ -98,9 +104,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: login;

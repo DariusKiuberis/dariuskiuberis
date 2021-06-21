@@ -22,15 +22,21 @@ body {
 
 .logo-container {
   // border: solid 1px blue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   grid-area: logo;
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: 33% 33% 34%;
+  grid-template-areas:
+    ". . ."
+    ". logoWrap ."
+    ". . .";
 }
 
 .logo-wrap {
   // border: 1px solid aqua;
-  width: 70px;
+  grid-area: logoWrap;
+  display: flex;
+  align-items: flex-end;
 
   a:active {
     border-bottom: none;
@@ -57,9 +63,8 @@ body {
 .about-wrap {
   // border: 1px solid aqua;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   grid-area: about;
-  // margin: 0 0 0 10px;
 }
 
 .about-wrap:hover .link:after {
@@ -70,7 +75,7 @@ body {
 .contact-wrap {
   // border: 1px solid aqua;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   grid-area: contact;
 }
 
@@ -82,7 +87,7 @@ body {
 .login-wrap {
   // border: 1px solid aqua;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   grid-area: login;
 }
 
