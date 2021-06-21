@@ -10,26 +10,28 @@ body {
 
 .navbar-container {
   height: 100vh;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 33% 33% 34%;
+      grid-template-rows: 33% 33% 34%;
+      grid-template-areas: ". . " "logo links" ". . ";
 }
 
 .logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: 2;
-      -ms-flex: 2;
-          flex: 2;
-  font-size: 1.5em;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: logo;
 }
 
 .logo-wrap {
@@ -46,20 +48,28 @@ body {
 }
 
 .links-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 5;
-      -ms-flex: 5;
-          flex: 5;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: links;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 34%;
+      grid-template-columns: 33% 33% 34%;
+  -ms-grid-rows: 33% 33% 34%;
+      grid-template-rows: 33% 33% 34%;
+      grid-template-areas: ". . ." "about contact login" ". . .";
 }
 
 .about-wrap {
-  width: 70px;
-  margin: 0 50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: about;
 }
 
 .about-wrap:hover .link:after {
@@ -68,29 +78,36 @@ body {
 }
 
 .contact-wrap {
-  width: 75px;
-  margin: 0 50px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: contact;
 }
 
 .contact-wrap:hover .link:after {
-  content: "us";
-  color: #fff;
-}
-
-.login-wrap {
-  width: 70px;
-  margin: 0 50px 0 0;
-}
-
-.login-wrap:hover .link:after {
   content: "now";
   color: #fff;
 }
 
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
+.login-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: login;
+}
+
+.login-wrap:hover .link:after {
+  content: "here";
+  color: #fff;
 }
 /*# sourceMappingURL=navbar.css.map */

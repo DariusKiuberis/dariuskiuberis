@@ -11,21 +11,23 @@ body {
 .navbar-container {
   // border: solid 1px red;
   height: 100vh;
-  color: white;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 34%;
+  grid-template-areas:
+    ". . "
+    "logo links"
+    ". . ";
 }
 
 .logo-container {
-  // border: solid 1px white;
+  // border: solid 1px blue;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex: 2;
-  font-size: 1.5em;
-  // width: 200px;
+  grid-area: logo;
 }
 
-// LOGO
 .logo-wrap {
   // border: 1px solid aqua;
   width: 70px;
@@ -41,17 +43,23 @@ body {
 }
 
 .links-container {
-  // border:  solid tomato;
-  display: flex;
-  flex: 5;
-  justify-content: center;
+  // border: solid 1px tomato;
+  grid-area: links;
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: 33% 33% 34%;
+  grid-template-areas:
+    ". . ."
+    "about contact login"
+    ". . .";
 }
 
-// ABOUT
 .about-wrap {
   // border: 1px solid aqua;
-  width: 70px;
-  margin: 0 50px 0 0;
+  display: flex;
+  align-items: center;
+  grid-area: about;
+  // margin: 0 0 0 10px;
 }
 
 .about-wrap:hover .link:after {
@@ -59,32 +67,26 @@ body {
   color: #fff;
 }
 
-// CONTACT
 .contact-wrap {
   // border: 1px solid aqua;
-  width: 75px;
-  margin: 0 50px 0 0;
+  display: flex;
+  align-items: center;
+  grid-area: contact;
 }
 
 .contact-wrap:hover .link:after {
-  content: "us";
-  color: #fff;
-}
-
-// LOGIN
-.login-wrap {
-  // border: 1px solid aqua;
-  width: 70px;
-  margin: 0 50px 0 0;
-}
-
-.login-wrap:hover .link:after {
   content: "now";
   color: #fff;
 }
 
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-wrap: wrap;
-  }
+.login-wrap {
+  // border: 1px solid aqua;
+  display: flex;
+  align-items: center;
+  grid-area: login;
+}
+
+.login-wrap:hover .link:after {
+  content: "here";
+  color: #fff;
 }
