@@ -52,6 +52,7 @@ body {
 .logo-wrap:hover .link:after {
   content: "Kiuberis";
   color: #fff;
+  font-style: italic;
 }
 
 .links-container {
@@ -80,6 +81,7 @@ body {
 .about-wrap:hover .link:after {
   content: "me";
   color: #fff;
+  font-style: italic;
 }
 
 .contact-wrap {
@@ -96,6 +98,7 @@ body {
 .contact-wrap:hover .link:after {
   content: "now";
   color: #fff;
+  font-style: italic;
 }
 
 .login-wrap {
@@ -112,4 +115,5 @@ body {
 .login-wrap:hover .link:after {
   content: "here";
   color: #fff;
+  font-style: italic;
 }
