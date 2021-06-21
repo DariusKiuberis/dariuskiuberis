@@ -48,6 +48,10 @@ body {
   border-bottom: none;
 }
 
+.logo-wrap:hover .link {
+  color: tomato;
+}
+
 .logo-wrap:hover .link:after {
   content: "Kiuberis";
   color: #fff;
@@ -78,6 +82,10 @@ body {
   grid-area: about;
 }
 
+.about-wrap:hover .link {
+  color: tomato;
+}
+
 .about-wrap:hover .link:after {
   content: "me";
   color: #fff;
@@ -95,6 +103,10 @@ body {
   grid-area: contact;
 }
 
+.contact-wrap:hover .link {
+  color: tomato;
+}
+
 .contact-wrap:hover .link:after {
   content: "now";
   color: #fff;
@@ -110,6 +122,10 @@ body {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: login;
+}
+
+.login-wrap:hover .link {
+  color: tomato;
 }
 
 .login-wrap:hover .link:after {
