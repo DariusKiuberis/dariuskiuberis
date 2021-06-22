@@ -3,7 +3,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .header-wrap h1 {
     top: 70%;
     left: 15%;
@@ -17,6 +17,7 @@
     display: none;
   }
   .blog-content-container {
+    border: 10px solid aqua;
     height: 600px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -42,6 +43,32 @@
             justify-content: center;
   }
   .link-test {
+    display: none;
+  }
+  .quote {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .quote i {
+    margin: 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .blog-content-container {
+    border: 10px solid brown;
+    height: 870px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    top: -150px;
+  }
+  .border-top {
+    display: none;
+  }
+  .border-right {
+    display: none;
+  }
+  .border-left {
     display: none;
   }
   .quote {

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACMC,kDAAkD;AAGlD,qEAAqE;AAGrE,sDAAsD;AAGtD,oDAAoD;AAGpD,qEAAqE;ADhBtE,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;EAC5C,AAAA,uBAAuB,CAAC;IACpB,MAAM,EAAE,gBAAgB;IACxB,SAAS,EAAE,GAAG;IACd,IAAI,EAAE,GAAG;GACZ",
+    "sources": [
+        "laptop.scss",
+        "../../../../../styles/scss/global/mediaQueries/queries.scss"
+    ],
+    "names": [],
+    "file": "laptop.css"
+}

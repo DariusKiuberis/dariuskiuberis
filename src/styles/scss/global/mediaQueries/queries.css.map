@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAKC,kDAAkD;AAGlD,qEAAqE;AAGrE,sDAAsD;AAGtD,oDAAoD;AAGpD,qEAAqE",
+    "mappings": "AAMC,kDAAkD;AAGlD,qEAAqE;AAGrE,sDAAsD;AAGtD,oDAAoD;AAGpD,qEAAqE",
     "sources": [
         "queries.scss"
     ],
