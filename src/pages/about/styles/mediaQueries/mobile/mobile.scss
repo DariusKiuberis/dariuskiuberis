@@ -1,0 +1,52 @@
+@import "../../../../../styles/scss/global/mediaQueries/queries.scss";
+
+// @todo "mea" put on top of  "histria"
+@media only screen and (max-width: $breakpoint-mobile) {
+  .header-wrap {
+    h1 {
+      top: 70%;
+      left: 15%;
+      font-size: 35px;
+      letter-spacing: 2px;
+    }
+  }
+  .header-image-container {
+    width: 100%;
+  }
+  .darius-kiuberis {
+    display: none;
+  }
+  .blog-content-container {
+    height: 600px;
+    flex-wrap: wrap;
+  }
+  .blog-left {
+    border-right: none;
+  }
+  .blog-right {
+    display: none;
+  }
+  .border-top {
+    display: none;
+  }
+  .border-right {
+    display: none;
+  }
+  .border-left {
+    display: none;
+  }
+  .copyright-container {
+    justify-content: center;
+  }
+  .link-test {
+    display: none;
+  }
+  .quote {
+    font-size: 30px;
+    line-height: 40px;
+
+    i {
+      margin: 0;
+    }
+  }
+}
