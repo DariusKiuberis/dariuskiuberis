@@ -38,6 +38,18 @@ body {
   text-align: center;
 }
 
+.back-container {
+  height: 5em;
+  width: 5em;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.back-container svg {
+  fill: #ffffff;
+}
+
 .darius-kiuberis {
   position: absolute;
   top: 50%;

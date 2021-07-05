@@ -38,6 +38,17 @@ body {
     text-align: center;
   }
 }
+.back-container {
+  // border: 1px solid red;
+  height: 5em;
+  width: 5em;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  svg {
+    fill: $white;
+  }
+}
 .darius-kiuberis {
   // border: 1px solid red;
   position: absolute;
@@ -108,7 +119,6 @@ body {
 // ********************************************* quote START
 .quote-wrap {
   // border: 1px solid grey;
-  // height: 1000px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
