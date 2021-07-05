@@ -2,13 +2,12 @@
 
 @font-face {
   font-family: yomogi;
-  src: url('../../../styles/fonts/YomogiRegular/Yomogi-Regular.ttf');
+  src: url("../../../styles/fonts/YomogiRegular/Yomogi-Regular.ttf");
 }
 
 body {
   margin: 0;
   padding: 0;
-  line-height: 1.42857143;
 }
 
 .about-container {
@@ -25,21 +24,22 @@ body {
   min-height: 700px;
 
   h1 {
-    position: absolute;
-    top: 50%;
-    text-align: right;
+    // border: 1px solid #000;
+    position: relative;
+    top: 70%;
     color: #ffffff;
-    left: 20%;
     z-index: 1;
     font-size: 55px;
     font-style: italic;
     letter-spacing: 4px;
     font-family: "old_standard_tt", Georgia, "Times New Roman", Times, serif;
     font-weight: 500;
-    line-height: 1.1;
+    margin: 0;
+    text-align: center;
   }
 }
 .darius-kiuberis {
+  // border: 1px solid red;
   position: absolute;
   top: 50%;
   font-stretch: expanded;
@@ -74,6 +74,7 @@ body {
   justify-content: center;
 }
 .blog-content-container {
+  // border:  solid red;
   max-width: 70%;
   height: auto;
   position: relative;
@@ -84,7 +85,9 @@ body {
   font-size: 18px;
   font-family: yomogi;
   letter-spacing: 1px;
-  font-weight:lighter;
+  font-weight: lighter;
+  padding: 5%;
+  text-align: left;
 
   p {
     // margin: 0 0 17px;
@@ -94,13 +97,11 @@ body {
   // border: 1px solid green;
   flex: 1;
   border-right: 1px solid $white;
-  margin: 7% 0 7% 7%;
-  padding: 0 8% 0 0;
+  padding: 0 4% 0 0;
 }
 .blog-right {
   // border: 1px solid blue;
   flex: 1;
-  margin: 7%;
   padding: 0 0 0 4%;
 }
 // ********************************************* blog END
