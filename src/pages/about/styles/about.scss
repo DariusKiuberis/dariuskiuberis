@@ -1,5 +1,10 @@
 @import "../../../styles/scss/global/styles/colors/colors.scss";
 
+@font-face {
+  font-family: yomogi;
+  src: url('../../../styles/fonts/YomogiRegular/Yomogi-Regular.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -38,19 +43,10 @@ body {
   position: absolute;
   top: 50%;
   font-stretch: expanded;
-  //   width: inherit;
-  //   margin: 0px;
-  //   margin-top: 0px;
   color: #ffffff;
-  //   text-transform: uppercase;
-  //   text-align: center;
-  //   z-index: 2;
-
-  //   left: 30px;
   font-size: 20px;
   letter-spacing: 3px;
   font-weight: 700;
-  //   margin-top: -12px;
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -74,10 +70,8 @@ body {
 // ********************************************** blog START
 .blog-wrap {
   // border: solid red;
-  // position: relative;
   display: flex;
   justify-content: center;
-  // height: 500px;
 }
 .blog-content-container {
   max-width: 70%;
@@ -86,20 +80,14 @@ body {
   display: flex;
   color: $white;
   top: -50px;
-  // left: 15%;
   background-color: $brown;
-  font-size: 15px;
-  font-family: "hallo_sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-family: yomogi;
   letter-spacing: 1px;
-
-  // white-space: pre-wrap;
-  // white-space: -moz-pre-wrap;
-  // white-space: -pre-wrap;
-  // white-space: -o-pre-wrap;
-  // word-wrap: break-word;
+  font-weight:lighter;
 
   p {
-    margin: 0 0 17px;
+    // margin: 0 0 17px;
   }
 }
 .blog-left {
@@ -136,7 +124,6 @@ body {
   font-weight: 700;
   letter-spacing: 3px;
   margin: 0px;
-  // font-family: 'old_standard_tt', Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   line-height: 55px;
   span {
