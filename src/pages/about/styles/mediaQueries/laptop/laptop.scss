@@ -2,9 +2,8 @@
 
 @media (min-width: $breakpoint-laptop) and (max-width: $breakpoint-monitor)  {
     .blog-content-container {
-        border: 10px solid black;
+        // border: 10px solid black;
         max-width: 80%;
-        left: 10%;
     }
 
 }

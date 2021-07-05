@@ -62,20 +62,23 @@ body {
 }
 
 .blog-wrap {
-  position: relative;
-  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .blog-content-container {
   max-width: 70%;
   height: auto;
-  position: absolute;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #ffffff;
   top: -50px;
-  left: 15%;
   background-color: #b46357;
   font-size: 15px;
   font-family: "hallo_sans", Helvetica, Arial, sans-serif;
@@ -100,11 +103,10 @@ body {
       -ms-flex: 1;
           flex: 1;
   margin: 7%;
+  padding: 0 0 0 4%;
 }
 
 .quote-wrap {
-  border: 1px solid grey;
-  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,7 +116,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 0 0 10% 0;
+  padding: 5% 0 5% 0;
 }
 
 .quote {
@@ -173,7 +175,7 @@ body {
 
 .border-top {
   position: absolute;
-  background: #e5e5e5;
+  background: #ffffff;
   z-index: 10;
   height: 24px;
   top: 20px;
@@ -183,7 +185,7 @@ body {
 
 .border-right {
   position: absolute;
-  background: #e5e5e5;
+  background: #ffffff;
   z-index: 10;
   width: 24px;
   top: 20px;
@@ -193,7 +195,7 @@ body {
 
 .border-left {
   position: absolute;
-  background: #e5e5e5;
+  background: #ffffff;
   z-index: 10;
   width: 24px;
   top: 20px;

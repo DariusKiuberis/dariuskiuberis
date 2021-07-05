@@ -73,48 +73,57 @@ body {
 }
 // ********************************************** blog START
 .blog-wrap {
-  //   border: 1px solid green;
-  position: relative;
-  height: 500px;
+  // border: solid red;
+  // position: relative;
+  display: flex;
+  justify-content: center;
+  // height: 500px;
 }
 .blog-content-container {
   max-width: 70%;
   height: auto;
-  position: absolute;
+  position: relative;
   display: flex;
   color: $white;
   top: -50px;
-  left: 15%;
+  // left: 15%;
   background-color: $brown;
   font-size: 15px;
   font-family: "hallo_sans", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
+
+  // white-space: pre-wrap;
+  // white-space: -moz-pre-wrap;
+  // white-space: -pre-wrap;
+  // white-space: -o-pre-wrap;
+  // word-wrap: break-word;
 
   p {
     margin: 0 0 17px;
   }
 }
 .blog-left {
-  //   border: 1px solid green;
+  // border: 1px solid green;
   flex: 1;
   border-right: 1px solid $white;
   margin: 7% 0 7% 7%;
   padding: 0 8% 0 0;
 }
 .blog-right {
-  //   border: 1px solid blue;
+  // border: 1px solid blue;
   flex: 1;
   margin: 7%;
+  padding: 0 0 0 4%;
 }
 // ********************************************* blog END
 // ********************************************* quote START
 .quote-wrap {
-  border: 1px solid grey;
-  height: 500px;
+  // border: 1px solid grey;
+  // height: 1000px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding: 0 0 10% 0;
+  padding: 5% 0 5% 0;
 }
 .quote {
   // border: 1px solid #000;
@@ -169,7 +178,7 @@ body {
 }
 .border-top {
   position: absolute;
-  background: #e5e5e5;
+  background: $white;
   z-index: 10;
   height: 24px;
   top: 20px;
@@ -178,7 +187,7 @@ body {
 }
 .border-right {
   position: absolute;
-  background: #e5e5e5;
+  background: $white;
   z-index: 10;
   width: 24px;
   top: 20px;
@@ -187,7 +196,7 @@ body {
 }
 // .border-bottom {
 //   position: absolute;
-//   background: #e5e5e5;
+//   background: $white;
 //   z-index: 10;
 //   height: 24px;
 //   bottom: 20px;
@@ -196,7 +205,7 @@ body {
 // }
 .border-left {
   position: absolute;
-  background: #e5e5e5;
+  background: $white;
   z-index: 10;
   width: 24px;
   top: 20px;

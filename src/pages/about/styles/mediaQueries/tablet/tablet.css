@@ -3,9 +3,4 @@
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
-  .blog-content-container {
-    border: 10px solid green;
-  }
-}
 /*# sourceMappingURL=tablet.css.map */

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACMC,kDAAkD;AAGlD,qEAAqE;AAGrE,sDAAsD;AAGtD,oDAAoD;AAGpD,qEAAqE;ADhBtE,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAO3C,AAAA,uBAAuB,CAAC;IACpB,MAAM,EAAE,gBAAgB;GAGzB",
+    "mappings": "ACMC,kDAAkD;AAGlD,qEAAqE;AAGrE,sDAAsD;AAGtD,oDAAoD;AAGpD,qEAAqE",
     "sources": [
         "tablet.scss",
         "../../../../../styles/scss/global/mediaQueries/queries.scss"

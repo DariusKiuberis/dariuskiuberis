@@ -17,8 +17,7 @@
     display: none;
   }
   .blog-content-container {
-    border: 10px solid aqua;
-    height: 600px;
+    // border: 10px solid aqua;
     flex-wrap: wrap;
   }
   .blog-left {
@@ -42,6 +41,7 @@
   .link-test {
     display: none;
   }
+
   .quote {
     font-size: 30px;
     line-height: 40px;
@@ -54,10 +54,8 @@
 
 @media (min-width: $breakpoint-mobile-portrait) and (max-width: $breakpoint-tablet) {
   .blog-content-container {
-    border: 10px solid brown;
-    height: 870px;
-    flex-wrap: wrap;
-    top: -150px;
+    // border: 10px solid brown;
+    // flex-wrap: wrap;
   }
   // .blog-left {
   //   border-right: none;
@@ -74,6 +72,7 @@
   .border-left {
     display: none;
   }
+
   .quote {
     font-size: 30px;
     line-height: 40px;

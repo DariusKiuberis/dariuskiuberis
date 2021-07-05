@@ -5,9 +5,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 992px) and (max-width: 1200px) {
   .blog-content-container {
-    border: 10px solid black;
     max-width: 80%;
-    left: 10%;
   }
 }
 /*# sourceMappingURL=laptop.css.map */
