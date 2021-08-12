@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/dariuskiuberis.github.io/static/js/main.d448f141.chunk.js",
+    "main.js.map": "/dariuskiuberis.github.io/static/js/main.d448f141.chunk.js.map",
+    "runtime-main.js": "/dariuskiuberis.github.io/static/js/runtime-main.230c8020.js",
+    "runtime-main.js.map": "/dariuskiuberis.github.io/static/js/runtime-main.230c8020.js.map",
+    "static/js/2.ebd43dc1.chunk.js": "/dariuskiuberis.github.io/static/js/2.ebd43dc1.chunk.js",
+    "static/js/2.ebd43dc1.chunk.js.map": "/dariuskiuberis.github.io/static/js/2.ebd43dc1.chunk.js.map",
+    "index.html": "/dariuskiuberis.github.io/index.html",
+    "static/js/2.ebd43dc1.chunk.js.LICENSE.txt": "/dariuskiuberis.github.io/static/js/2.ebd43dc1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.230c8020.js",
+    "static/js/2.ebd43dc1.chunk.js",
+    "static/js/main.d448f141.chunk.js"
+  ]
+}
